@@ -2,6 +2,7 @@
 *{
     margin: 0;
     font-family: Jost;
+    color: #FFFFFF;
 }
 .img-bg1{
     background-image: url(./bg-img1.png);
@@ -36,9 +37,62 @@
     margin-top: 59px;
     margin-left: 500px;
 }
-
-
-
+.NAYTI{
+    width: 549px;
+    height: 120px;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 216px;
+    margin-left: 214px;
+}
+.SSS{
+    width: 559px;
+    height: 44px;
+    font-size: 20px;
+    margin-left: 214px;
+    margin-top: 20px;
+}
+.bnt{
+    font-size: 17px;
+    font-weight: 700;
+    width: 199px;
+    height: 53px;
+    border-radius: 50px;
+    background-color: #ffffff00;
+    border: 2px solid #FFFFFF;
+    margin-left: 214px;
+    margin-top: 44px;
+}
+.bnt1{
+    font-size: 17px;
+    font-weight: 700;
+    width: 199px;
+    height: 53px;
+    border-radius: 50px;
+    background-color: #ffffff00;
+    border: 2px solid #FFFFFF;
+    margin-left: 21px;
+    margin-top: 44px;
+}
+.section1{
+    display: flex;
+}
+.tel1{
+    margin-left: 900px;
+    margin-top: -450px;
+    width: 550px;
+    height: 650px;
+}
+.bntO{
+    display: flex;
+    -ms-flex-direction: column;
+}
+.img-media{
+    display: none;
+    background-image: url(./bg-imgPOLNI.svg);
+    width: 100%;
+    height: 1110px;
+}
 @media(max-width: 510px){
     .img-bg1{
         width: 100%;
@@ -53,5 +107,45 @@
     }
     .logo{
         margin-left: 30px;
+        margin-top: -20px;
+    }
+    .NAYTI{
+        margin-left: 40px;
+        margin-top: 27px;
+        width: 399px;
+        height: 70px;
+        font-size: 28px;
+    }
+    .SSS{
+        width: 335px;
+        height: 44px;
+        margin-left: 25px;
+    }
+    .bntO{
+        margin-left: -200px;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    .bnt{
+        width: 199px;
+        height: 53px;
+        margin-left: 300px;
+        margin-bottom: 7px;
+    }
+    .bnt1{
+        width: 199px;
+        height: 53px;
+        margin-left: 300px;
+        margin-top: -1px;
+    }
+    .tel1{
+        width: 240px;
+        height: 260px;
+        margin-left: 70px;
+        margin-top: 40px;
+    }
+    .img-media{
+        display: inline;
     }
 }
