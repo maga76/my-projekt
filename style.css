@@ -93,6 +93,112 @@
     width: 100%;
     height: 1110px;
 }
+.FUN{
+    font-size: 46px;
+    font-weight: 500;
+    color: #000000;
+    margin-left: 591px;
+}
+.moveon{
+    width: 424px;
+    height: 42px;
+    font-size: 18px;
+    margin-left: 591px;
+    margin-top: 13px;
+    color: #ABABAB;
+}
+.img-tel1{
+    margin-left: 539px;
+    margin-top: 101px;
+}
+.PRI{
+    font-size: 22px;
+    font-weight: 500;
+    color: #000000;
+}
+.NAXODI{
+    width: 321px;
+    height: 66px;
+    font-size: 18px;
+    color: #B0B0B0;
+}
+.kulula{
+    display: flex; 
+    gap: 26px;
+    margin-top: -850px;
+    margin-left: 20px;
+}
+.kulula1{
+    display: flex; 
+    gap: 26px;
+    margin-top: 174px;
+    margin-left: 20px;
+}
+.kulula2{
+    display: flex; 
+    gap: 26px;
+    margin-top: 179px;
+    margin-left: 20px;
+}
+.kululaobsh{
+    margin-left: 1000px;
+    margin-top: 205px;
+}
+.footerobsh{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer{
+    background-image: url(./bagraund-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 522px;
+    margin-top: 213px;
+}
+.ABOUT{
+    font-size: 28px;
+    font-weight: 700;
+    padding-top: 184px;
+    margin-left: 165px;
+}
+.MOVEON{
+    font-size: 18px;
+    width: 518px;
+    height: 93px;
+    margin-left: 165px;
+    margin-top: 13px;
+}
+.Nashi{
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 184px;
+    
+}
+.contacti{
+    width: 315px;
+    height: 93px;
+    font-size: 18px;
+    margin-top: 13px;
+}
+.sotsveti{
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 184px;
+}
+.img-footer{
+    display: flex;
+    gap: 26px;
+}
+.hr{
+    margin: 84px;
+
+}
+.APP{
+    margin-left: 660px;
+    font-size: 20px;
+    margin-top: -20px;
+}
 @media(max-width: 510px){
     .img-bg1{
         width: 100%;
@@ -147,5 +253,33 @@
     }
     .img-media{
         display: inline;
+    }
+    .img-bg2{
+        background-image: url(./bg-imgPOLNI.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 1075px;
+    }
+    .FUN{
+        margin-left: 60px;
+        font-size: 36px;
+        font-weight: 500;
+    }
+    .moveon{
+        margin-left: 17px;
+        font-size: 14px;
+        width: 335px;
+        height: 42px;
+        text-align: center;
+    }
+    .PRI{
+        font-size: 18px;
+        margin-left: 0px;
+    }
+    .moveon{
+        font-size: 14px;
+        width: 264px;
+        height: 43px;
     }
 }
